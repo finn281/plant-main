@@ -1,0 +1,120 @@
+#overlapthis {
+    background-image:url("mymessage.gif");
+    
+    left:0px; /* play around with this */
+    position:absolute;
+    top:0px; /* and play around with this */
+   
+}
+
+#img blur {
+    filter: blur(5px);
+}
+
+p{
+    color:lavender;
+    font-style:italic;
+    font-size: 15px;
+    font color: lavender;
+     font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 2px 4px 10px lavender;
+}
+
+p3{
+    background-color: teal;
+    
+  text-decoration-style: wavy;  
+        color:lavender;
+    font-style:italic;
+    font-size: 15px;
+    font color: lavender;
+     font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 2px 4px 10px lavender;
+}
+
+h1{
+    color: slateblue;
+    font-size: 60px;
+    text-shadow: 2px 4px 10px lavender;
+    font-weight: 1;
+}
+
+pre{
+    color: lavender;
+    font-size: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 2px 4px 10px lavender;
+}
+
+#bluebox {
+    height:50%;
+    width: 50%;
+   background-image: linear-gradient(lavender, mediumSlateBlue);
+    opacity: 60%;
+  padding: 10px;
+  border: 5px double teal;
+  margin: 5;
+    
+}
+
+#greenbox {
+    height:50%;
+    width: 50%;
+   background-image: linear-gradient(lavender, palegreen);
+    opacity: 60%;
+  padding: 10px;
+  border: 5px double teal;
+  margin: 5;
+    
+}
+
+#weirdbox {
+      height:50%;
+    width: 50%;
+  margin: 5; 
+background-image: radial-gradient(midnightblue, seagreen, lavender, seagreen, midnightblue);
+    opacity: 100%;
+  padding: 10px;
+  border: 5px double teal;
+  margin: 5; 
+    
+}
+
+body {
+  
+  background-image: url(https://64.media.tumblr.com/29f20a21f35faed7629bf106d9c9027f/75cf2852ec644963-21/s500x750/30cfe171d014b9320dc35d46bc9dfeba04105b26.gif); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-attachment: fixed;
+   
+
+    
+    }
+
+
+.button {
+  background-image: linear-gradient(lavender, mediumSlateBlue);
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: darkslateblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+     border: 5px ridge slateblue; /* Green */
+}
+
+
+.myDiv 
+        {
+            border: 1px outset Saddlebrown;
+            background-color: floralwhite;    
+            text-align: center;
+            opacity: 0.7;
+        }
+
+
+#unblur: filter:blur(0px);
